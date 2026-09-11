@@ -76,10 +76,11 @@
 }
 .cover__title-line {
   display: block;
-
 }
 .cover__title-line_pos_left {
   text-align: left;
+  margin-top: 165px;
+  margin-left:50px;
 }
 .cover__title-line_pos_center {
   text-align: center;
@@ -91,15 +92,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  bottom: 61px;
+  left: 50px;
+  right: 50px;
+  z-index: 2;
+  
 }
 .description__text {
+  align-self: flex-end;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 19.8px;
 }
 
 .description__button {
@@ -108,6 +116,10 @@
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
+  font-size: 22px; 
+  line-height: 100%;          
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .card{
@@ -152,10 +164,26 @@
   color: #fff;
 } 
 
+.card__title{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+
+.card__text{
+  width: 400;
+  color: #FFFFFF;
+  line-height: 120%;
+  size: 20px;
+}
+
 .lots__look-more-link {
   display: inline-block;
-  margin-bottom: 118px;
   margin-top: 30px;
+  margin-bottom: 118px;
   margin-left: 40px;
   text-decoration: underline;
 
