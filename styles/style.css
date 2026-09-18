@@ -80,10 +80,6 @@
   padding: 0 24px;
 }
 
-.header__link_active {
-  text-decoration: underline;
-}
-
 .overlay {
   position: absolute;
   inset: 0;
@@ -142,7 +138,7 @@
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .bet-button {
@@ -316,7 +312,7 @@
   text-decoration: none;
 }
 
-.footer__social { 
+.footer__social {
   justify-self: end;
 }
 
