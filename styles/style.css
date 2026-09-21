@@ -317,9 +317,10 @@
   text-decoration: none;
 }
 
-.footer__address{
+.footer__address {
   width: 264px;
 }
+
 .footer__social {
   justify-self: end;
 }
