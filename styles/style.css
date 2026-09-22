@@ -47,7 +47,7 @@
   width: 220px;
 }
 
-.header__contact-text_active {
+.address__contact-text {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -57,9 +57,12 @@
 }
 .cover {
   position: relative;
-  min-height: 757px;
+  padding: 165px 0 50px;
   background: url('../images/cover.jpg');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
 }
 
 .lots {
@@ -95,7 +98,6 @@
 .cover__title {
   position: relative;
   z-index: 2;
-  padding-top: 165px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -121,10 +123,7 @@
 }
 
 .cover__description {
-  position: absolute;
-  right: 50px;
-  bottom: 50px;
-  left: 50px;
+  margin: 0 50px;
   z-index: 2;
   display: flex;
   justify-content: space-between;
@@ -330,7 +329,3 @@
   justify-self: end;
 }
 
-.footer__contact-text_active {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
